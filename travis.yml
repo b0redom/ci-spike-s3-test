@@ -1,8 +1,0 @@
-addons:
-  artifacts: true
-    s3_region: "eu-west-2"
-    paths:
-    - README.md
-jobs:
-  -include:
-    -stage: upload to S3
